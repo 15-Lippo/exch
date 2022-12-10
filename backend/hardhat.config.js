@@ -22,7 +22,7 @@ module.exports = {
   defaultNetwork: "rinkeby",
   networks: {
     rinkeby: {
-      url: process.env.HTTPS_RINKEBY_ENDPOINT,
+      url: process.env.HTTPS_MAINNET_ENDPOINT,
       accounts: [process.env.PRIVATE_KEY]
     }
   },
